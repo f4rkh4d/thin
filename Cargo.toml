@@ -1,0 +1,39 @@
+[package]
+name = "thin"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["farkhad <bennett@frkhd.com>"]
+description = "finds ai writing in your readmes. without using ai. rule-based prose linter, opinionated and loud."
+license = "MIT"
+repository = "https://github.com/f4rkh4d/thin"
+readme = "README.md"
+keywords = ["linter", "prose", "cli", "writing", "markdown"]
+categories = ["command-line-utilities", "text-processing"]
+
+[[bin]]
+name = "thin"
+path = "src/main.rs"
+
+[lib]
+name = "thin"
+path = "src/lib.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anstream = "0.6"
+anstyle = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+glob = "0.3"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+opt-level = "z"

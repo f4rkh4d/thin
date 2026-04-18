@@ -1,5 +1,7 @@
 # thin
 
+
+![demo](docs/hero.gif)
 finds ai writing in your readmes. without using ai.
 
 rule-based prose linter. opinionated. loud.

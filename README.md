@@ -115,9 +115,9 @@ subjective things (parallel sophistry, long sentences, passive voice) are never 
 
 ## vs others
 
-- **vale** — vale is great and exhaustive. thin is smaller, more opinionated, specifically targets ai-prose tells.
-- **write-good** — similar idea, older, not maintained.
-- **lt / grammarly** — those catch grammar. thin catches style.
+- **vale**. vale is great and exhaustive. thin is smaller, more opinionated, specifically targets ai-prose tells.
+- **write-good**. similar idea, older, not maintained.
+- **lt / grammarly**. those catch grammar. thin catches style.
 
 ## roadmap
 

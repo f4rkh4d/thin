@@ -1,6 +1,6 @@
 # acmeflow
 
-In today's fast-paced world, acmeflow leverages the power of modern architecture — seamless, robust — and blazingly fast — to deliver a truly revolutionary experience.
+In today's fast-paced world, acmeflow leverages the power of modern architecture. seamless, robust. and blazingly fast. to deliver a truly revolutionary experience.
 
 It's not just a tool. It's a paradigm shift.
 

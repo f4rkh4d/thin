@@ -1,12 +1,13 @@
 # thin
 
+[![ci](https://github.com/f4rkh4d/thin/actions/workflows/ci.yml/badge.svg)](https://github.com/f4rkh4d/thin/actions/workflows/ci.yml)
+[![license](https://img.shields.io/github/license/f4rkh4d/thin)](https://github.com/f4rkh4d/thin/blob/main/LICENSE)
 
 ![demo](docs/hero.gif)
+
 finds ai writing in your readmes. without using ai.
 
 rule-based prose linter. opinionated. loud.
-
-<!-- demo.gif goes here once it's recorded -->
 
 ## install
 

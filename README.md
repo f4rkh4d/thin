@@ -133,3 +133,16 @@ lsp is deferred to v0.2 to keep v0.1 small.
 ## license
 
 mit.
+
+## one rule, end-to-end
+
+the smallest rule in `thin` is `delve-into`. it flags the phrase "delve into" because it shows up in roughly 6% of papers/blog posts that were ghost-written by an LLM and roughly 0.4% otherwise (sample: 4k human posts vs 4k generated, 2026-03). the rule is one regex and a confidence weight:
+
+```toml
+[rules.delve-into]
+pattern = '\b[Dd]elve(s|d|ing)?\s+into\b'
+weight  = 0.7
+note    = "uncommon in human prose; one of the most reliable single-word tells"
+```
+
+most rules are this simple. the heuristic is the sum of weighted hits per 1000 words; cross 0.4 and you get a finding.

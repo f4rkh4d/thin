@@ -90,11 +90,11 @@ patterns = ["<!-- thin: ignore-file -->"]
 
 a few rules have deterministic replacements. these get auto-fixed in place:
 
-- `utilizes` → `uses`
-- `in order to` → `to`
-- `leverages` → `uses`
-- `end result` → `result`
-- `past history` → `history`
+- `utilizes` -> `uses`
+- `in order to` -> `to`
+- `leverages` -> `uses`
+- `end result` -> `result`
+- `past history` -> `history`
 
 ```
 thin --fix README.md
